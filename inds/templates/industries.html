@@ -1,0 +1,126 @@
+{% extends 'base.html'%}
+
+{% block title %}
+Industery Blog
+{% endblock title%}
+
+
+
+{% block content%}
+    <main>
+
+        <!-- slider Area Start-->
+        <div class="slider-area ">
+            <!-- Mobile Menu -->
+            <div class="single-slider slider-height2 d-flex align-items-center" data-background="/static/assets/img/hero/Industries_hero.jpg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <div class="hero-cap text-center">
+                                <h2>Services</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- slider Area End-->
+
+        <!-- Services Area Start -->
+        <div class="services-area d-flex justify-content-lg-between section-padding30">
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_1.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Automotive Manufacturing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_2.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Heavy industry market</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_3.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Industry analysis</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_1.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Automotive Manufacturing</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_2.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Heavy industry market</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+            <div class="single-services">
+                <div class="services-icon">
+                    <img src="/static/assets/img/icon/services_icon_3.png" alt="">
+                </div>
+                <div class="services-caption">
+                    <h4>Industry analysis</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                </div>
+                <div class="services-btn">
+                    <a href={% url "industries"%} class="arrow-btn"><img src="/static/assets/img/icon/arrow_icon.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- Services Area End -->
+
+        <!-- Want To Work Start -->
+        <div class="wantToWork-area w-padding">
+            <div class="container">
+                <div class="row d-flex align-items-end">
+                    <div class="col-xl-6 col-lg-8 col-md-8">
+                        <div class="wantToWork-caption">
+                            <h2>Want To Work<br> With Us? Hit The Button.</h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-4 col-md-4">
+                       <div class="wantToWork-btn f-right">
+                            <a href="#" class="white-btn">Let’s Work Toghter</a>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Want To Work End -->
+
+    </main>
+   {%endblock content %}
